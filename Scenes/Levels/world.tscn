@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://6gngflja4bj0"]
+
+[ext_resource type="Texture2D" uid="uid://cn132nl2bdo0i" path="res://Assets/Textures/696.png" id="1_2kh2h"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3o8rd"]
+albedo_texture = ExtResource("1_2kh2h")
+uv1_triplanar = true
+
+[node name="World" type="Node3D"]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+material_override = SubResource("StandardMaterial3D_3o8rd")
+size = Vector3(100, 1, 100)
