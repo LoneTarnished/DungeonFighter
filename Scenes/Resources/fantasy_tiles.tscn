@@ -1,7 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://cshixjh8yhu1n"]
-
-[ext_resource type="PackedScene" uid="uid://dqub7o3jcl7gq" path="res://Assets/Models/Fantasy/road.glb" id="1_75doo"]
-
-[node name="Fantasy" type="Node3D"]
-
-[node name="road2" parent="." instance=ExtResource("1_75doo")]
